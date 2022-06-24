@@ -1,0 +1,13 @@
+<h1>Assignment</h1>
+<div>
+  <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)"> 
+    <input type="text" name="input" maxlength="35" ngModel >
+    <br>
+    <button type="submit" >Send</button>
+  </form>
+  <p>
+    <span *ngFor = "let out of outsArr">
+      {{ out }}
+    </span>
+  </p>
+</div>
