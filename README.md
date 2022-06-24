@@ -2,9 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
-## To run the application
+The server folder contains the serverside application.
 
-Put the server folder (which contains the serverside application) into the assignment folder (that contains the forntend application).
+## To run the application
 
 Run command `yarn serve` inside the assignment folder to run both applications. 
 
